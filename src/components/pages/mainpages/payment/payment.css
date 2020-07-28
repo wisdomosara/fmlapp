@@ -1,0 +1,150 @@
+
+
+
+
+.cover{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+a{
+ color: white;
+ text-decoration: none;
+}
+.form-wrapper{
+ padding:40px;
+ margin: auto;
+ background: #FFFFFF;
+box-shadow: 2px 8px 20px rgba(181, 181, 181, 0.2);
+border-radius: 5px;
+height:690px;
+width: 90%;
+}
+.form-header{
+ width:100%;
+ text-align:center;
+ margin-bottom:30px;
+}
+.form-header h1{
+ font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 52px;
+color: #04172A;
+}
+.form-content{
+ padding-left:40px;
+ padding-right:40px;
+}
+#close{
+ width:20px;
+ margin:auto;
+ margin-right: 0;
+ color:red;
+}
+.form-content button{
+ background: #FB3F5C;
+border-radius: 4px;
+color: #FFFFFF;
+margin:20px;
+}
+.form-content input,select{
+ border: 2px solid #B5B5B5;
+border-radius: 5px;
+padding:7px;
+margin-bottom:20px;
+}
+.form-content label{
+ font-size: 16px;
+line-height: 21px;
+font-weight:600;
+color: #353A45;
+}
+.split{
+ width: 100%;
+ display:flex;
+ justify-content:space-between;
+}
+.split div{
+ width:45%; 
+}
+.split input{
+ width:100%;
+}
+.but{
+ width:100%;
+ text-align:center;
+}
+
+/* link */
+
+.social-link{
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ align-items: center;
+ margin: 70px auto 70px auto;
+}
+.social-link h2{
+ font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+color: #04172A;
+}
+.social-link img{
+ margin-bottom: 10px;
+}
+.copy{
+ width: 100%;
+ text-align: center;
+ margin-top: 20px;
+}
+
+
+@media(max-width: 900px){
+ .form-content{
+  padding: 10px;
+ }
+ .form-wrapper{
+  padding: 15px;
+  line-height: normal;
+  box-shadow: none;
+  width: 100%;
+  height: 100vh;
+  border-radius: 0;
+ }
+ .shar{
+  margin-top: 50px;
+ }
+ .shar img{
+  width: 40px;
+  height: 40px;
+ }
+ .shar .f{
+  width: 19px !important;
+ }
+ .shar input{
+  margin-bottom: 5px;
+ }
+ .social-link{
+  margin: 20px auto;
+ }
+ .form-content label{
+  font-size: 13px;
+  font-weight: 600;
+ }
+ .form-header h1{
+  font-size:25px;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: normal;
+ }
+ .social-link h2{
+  font-size: 15px;
+ }
+ .cover{
+  padding: 0;
+ }
+}
